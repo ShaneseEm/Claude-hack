@@ -1,0 +1,7 @@
+{
+  "name": "agukamed",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd agukamed/server && node server.js"
+  }
+}
