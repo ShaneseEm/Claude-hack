@@ -1,0 +1,50 @@
+[
+  {
+    "id": "nivea_cream",
+    "name": "NIVEA Soft Moisturising Cream",
+    "brand": "NIVEA",
+    "manufacturer": "Beiersdorf AG",
+    "regNo": "RFDA-COS-2023-0041",
+    "type": "Skin Cream",
+    "verified": true,
+    "ingredients": "Aqua, Glycerin, Isopropyl Myristate, Glyceryl Stearate, Jojoba Oil",
+    "warnings": "For external use only. Avoid contact with eyes. Keep out of reach of children.",
+    "warningRw": "Gusa hanze gusa. Irinda guturika mu maso. Wubike kure y'abana.",
+    "instructions": "Apply a small amount to skin and massage gently until absorbed.",
+    "instructionsRw": "Shira agace gato ku ruhu maze unyure neza kugeza gisesekara.",
+    "expiryStatus": "Valid (Expires: Mar 2026)",
+    "category": "cosmetic"
+  },
+  {
+    "id": "fair_lovely",
+    "name": "Fair & Lovely Advanced Multi Vitamin",
+    "brand": "Fair & Lovely",
+    "manufacturer": "Hindustan Unilever Ltd",
+    "regNo": "RFDA-COS-2022-0118",
+    "type": "Face Cream",
+    "verified": true,
+    "ingredients": "Niacinamide, Vitamin B3, SPF 15, Glycerin, Aqua",
+    "warnings": "Avoid prolonged sun exposure. Discontinue if irritation occurs.",
+    "warningRw": "Irinda guturika cyane mu zuba. Hagarika niba uruhuje.",
+    "instructions": "Apply evenly on face twice daily. Use sunscreen if going outdoors.",
+    "instructionsRw": "Shira ku maso inshuro 2 ku munsi. Koresha sunscreen niba ugiye hanze.",
+    "expiryStatus": "Valid (Expires: Jan 2026)",
+    "category": "cosmetic"
+  },
+  {
+    "id": "fake_skin_bleach",
+    "name": "Ultra White Skin Bleach Cream",
+    "brand": "Unknown Brand",
+    "manufacturer": "Unregistered Lab",
+    "regNo": "NONE",
+    "type": "Skin Bleach",
+    "verified": false,
+    "ingredients": "Mercury Chloride, Hydroquinone (>2%), Unknown Compounds",
+    "warnings": "DANGER: Contains illegal mercury and high-dose hydroquinone. Causes permanent skin damage and organ failure.",
+    "warningRw": "AKAGA: Irimo mercury n'ibintu byangiza ubuzima. Bishobora gusenya uruhu no kwangiza ingingo z'umubiri.",
+    "instructions": "DO NOT USE. Report to Rwanda FDA immediately.",
+    "instructionsRw": "NTUKORESHE. Menyesha Rwanda FDA ako kanya.",
+    "expiryStatus": "UNKNOWN / HIGH RISK",
+    "category": "cosmetic"
+  }
+]

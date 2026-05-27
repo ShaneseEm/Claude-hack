@@ -1,0 +1,22 @@
+[
+  {
+    "refId": "RPT-050650",
+    "productName": "Test Fake X",
+    "location": "Kigali",
+    "sellerInfo": "Market shop",
+    "description": "No reg",
+    "channel": "web",
+    "id": "RPT-050650",
+    "timestamp": "2026-05-27T10:17:30.654Z"
+  },
+  {
+    "refId": "RPT-162338",
+    "productName": "Test Fake X",
+    "location": "Kigali",
+    "sellerInfo": "Not specified",
+    "description": "",
+    "channel": "web",
+    "id": "RPT-162338",
+    "timestamp": "2026-05-27T10:19:22.338Z"
+  }
+]

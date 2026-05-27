@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgukaMed — African AI Medicine & Product Safety</title>
+  <meta name="description" content="AgukaMed verifies medicines, cosmetics and perfumes with Vision AI, flags counterfeits, and explains dosage in Kinyarwanda — across web, SMS, USSD, and voice." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════════
+       LANDING PAGE
+  ════════════════════════════════════════════════ -->
+  <div id="landing-page">
+
+    <nav class="land-nav">
+      <div class="land-nav-inner">
+        <a href="#" class="land-logo" aria-label="AgukaMed home">
+          <div class="land-logo-icon">+</div>
+          <span class="land-logo-name">Aguka<span>Med</span></span>
+        </a>
+        <div class="land-nav-links">
+          <a href="#how">How it works</a>
+          <a href="#coverage">Coverage</a>
+          <a href="#access">Access</a>
+          <a href="#impact">Impact</a>
+          <button class="btn-launch" id="btn-open-app">Open App →</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-badge">🇷🇼 Built for Rwanda &amp; Africa · Hackathon Demo</div>
+      <h1 class="hero-title">
+        Is your medicine<br/>
+        <span class="hero-highlight">safe or fake?</span>
+      </h1>
+      <p class="hero-sub">
+        AgukaMed uses Vision AI to verify medicines, cosmetics and perfumes against
+        the Rwanda FDA registry — and explains dosage in plain Kinyarwanda audio.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-hero-primary" id="btn-hero-scan">Check a Medicine Now →</button>
+        <button class="btn-hero-ghost" id="btn-hero-demo">See how it works</button>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">9–41%</div>
+          <div class="stat-label">of medicines in Africa may be substandard or fake</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <div class="stat-num">~3s</div>
+          <div class="stat-label">average verification time</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <div class="stat-num">6</div>
+          <div class="stat-label">access channels — even no internet</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="section-inner">
+        <div class="section-tag">How it works</div>
+        <h2 class="section-title">Four steps to safety</h2>
+        <p class="section-sub">From snapshot to spoken instructions — fast enough to use at the pharmacy counter.</p>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <div class="step-num">01</div>
+            <div class="step-icon">📷</div>
+            <h3>Scan the label</h3>
+            <p>Upload a photo, use your camera, or pick a demo preset. Our Vision AI reads brand, dosage, batch and expiry.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-num">02</div>
+            <div class="step-icon">🔍</div>
+            <h3>Registry check</h3>
+            <p>We cross-reference the product against the Rwanda FDA registry and flag counterfeit packaging patterns.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-num">03</div>
+            <div class="step-icon">🧠</div>
+            <h3>AI simplifies dosage</h3>
+            <p>Dense pharmaceutical instructions are converted into plain Kinyarwanda and English — no jargon.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-num">04</div>
+            <div class="step-icon">🔊</div>
+            <h3>Voice playback</h3>
+            <p>Audio in Kinyarwanda for elderly, non-literate and visually-impaired users — safety read out loud.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="coverage">
+      <div class="section-inner">
+        <div class="section-tag">Coverage</div>
+        <h2 class="section-title">Medicines, cosmetics &amp; perfumes</h2>
+        <p class="section-sub">One platform for the products people actually buy — and the fakes that endanger them.</p>
+
+        <div class="coverage-grid">
+          <article class="coverage-card">
+            <div class="coverage-icon">💊</div>
+            <h3>Medicines</h3>
+            <p>Panadol, Coartem, Amoxicillin, Ibuprofen and hundreds more registered drugs — checked for batch, expiry and manufacturer.</p>
+            <div class="coverage-tag safe">Rwanda FDA registered</div>
+          </article>
+          <article class="coverage-card">
+            <div class="coverage-icon">🧴</div>
+            <h3>Cosmetics</h3>
+            <p>Skin creams, face lotions and bleaching products — flagging illegal mercury and hydroquinone formulations.</p>
+            <div class="coverage-tag safe">RFDA cosmetics register</div>
+          </article>
+          <article class="coverage-card">
+            <div class="coverage-icon">🌸</div>
+            <h3>Perfumes</h3>
+            <p>Authentic vs counterfeit detection using batch-code validation and brand-pattern matching from the AI.</p>
+            <div class="coverage-tag safe">Batch code verified</div>
+          </article>
+          <article class="coverage-card danger-card">
+            <div class="coverage-icon">🚫</div>
+            <h3>Counterfeit detection</h3>
+            <p>Unregistered, fake or dangerous products are flagged immediately with a clear red alert and a reason.</p>
+            <div class="coverage-tag danger">Danger alert</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="access">
+      <div class="section-inner">
+        <div class="section-tag">Inclusive Access</div>
+        <h2 class="section-title">Works on any phone.<br/>Even without internet.</h2>
+        <p class="section-sub">AgukaMed is built for the whole population — not just smartphone users.</p>
+
+        <div class="channels-land">
+          <div class="channel-land">
+            <div class="channel-land-icon">💻</div>
+            <div class="channel-land-name">Web App</div>
+            <div class="channel-land-desc">Full Vision AI scanner with camera, upload and audio playback.</div>
+          </div>
+          <div class="channel-land">
+            <div class="channel-land-icon">💬</div>
+            <div class="channel-land-name">WhatsApp Bot</div>
+            <div class="channel-land-desc">Send a photo or type <code>VERIFY PANADOL</code> to get an instant reply.</div>
+          </div>
+          <div class="channel-land">
+            <div class="channel-land-icon">📱</div>
+            <div class="channel-land-name">SMS</div>
+            <div class="channel-land-desc">Text <code>VERIFY COARTEM</code> — works on any basic phone.</div>
+          </div>
+          <div class="channel-land">
+            <div class="channel-land-icon">☎️</div>
+            <div class="channel-land-name">USSD <code>*123*MED#</code></div>
+            <div class="channel-land-desc">Button-phone friendly. Zero internet required.</div>
+          </div>
+          <div class="channel-land">
+            <div class="channel-land-icon">🏥</div>
+            <div class="channel-land-name">Clinic Kiosk</div>
+            <div class="channel-land-desc">Community health workers verify medicines for patients.</div>
+          </div>
+          <div class="channel-land">
+            <div class="channel-land-icon">🔊</div>
+            <div class="channel-land-name">Voice IVR</div>
+            <div class="channel-land-desc">Call, speak the product name, hear the answer in Kinyarwanda.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-impact" id="impact">
+      <div class="section-inner">
+        <div class="section-tag light">Impact</div>
+        <h2 class="section-title light">Protecting lives across Africa</h2>
+        <p class="section-sub light">Designed especially for the people most often missed by digital health.</p>
+
+        <div class="impact-grid">
+          <div class="impact-item">
+            <div class="impact-icon">👵🏽</div>
+            <h3>Elderly patients</h3>
+            <p>Kinyarwanda voice instructions — no reading required.</p>
+          </div>
+          <div class="impact-item">
+            <div class="impact-icon">🏘️</div>
+            <h3>Rural communities</h3>
+            <p>USSD and SMS reach basic phones with no data connection.</p>
+          </div>
+          <div class="impact-item">
+            <div class="impact-icon">👩🏽‍⚕️</div>
+            <h3>Health workers</h3>
+            <p>CHWs verify medicines for patients at village clinics, offline.</p>
+          </div>
+          <div class="impact-item">
+            <div class="impact-icon">🛡️</div>
+            <h3>Counterfeit fighters</h3>
+            <p>Anyone can report a fake product directly to Rwanda FDA.</p>
+          </div>
+        </div>
+
+        <button class="btn-hero-primary btn-white" id="btn-impact-scan">Start Verifying Now →</button>
+      </div>
+    </section>
+
+    <footer class="land-footer">
+      <div class="land-footer-inner">
+        <a href="#" class="land-logo">
+          <div class="land-logo-icon">+</div>
+          <span class="land-logo-name">Aguka<span>Med</span></span>
+        </a>
+        <p>Africa's accessible AI infrastructure for medicine &amp; product safety.<br/>
+           Built for Rwanda. Designed for everyone.</p>
+        <div class="footer-meta">
+          <span class="footer-note">⚠ Hackathon demo — always consult a certified medical professional.</span>
+          <span class="footer-author">Built by Bethelhem Alemayehu Ejigu · MIT License</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- ════════════════════════════════════════════════
+       APP PAGE
+  ════════════════════════════════════════════════ -->
+  <div id="app-page" style="display:none">
+
+    <header class="app-header">
+      <button class="btn-back" id="btn-back">← Back</button>
+      <a href="#" class="app-logo">
+        <div class="land-logo-icon small">+</div>
+        <span class="land-logo-name sm">Aguka<span>Med</span></span>
+      </a>
+      <div class="app-status" id="status-dot" title="Server status">● Live</div>
+    </header>
+
+    <nav class="nav-tabs">
+      <button class="nav-tab active" data-view="scan">🔍 Scan Product</button>
+      <button class="nav-tab" data-view="access">📡 All Access</button>
+    </nav>
+
+    <main class="app-body">
+
+      <!-- SCAN -->
+      <section id="scan-section">
+        <h2 class="page-title">Check your medicine or product</h2>
+        <p class="page-sub">Upload a photo, use your camera, or pick a demo preset below.</p>
+
+        <div class="input-methods">
+          <div class="upload-zone" id="dropzone">
+            <input type="file" id="file-input" accept="image/*" hidden />
+            <div class="zone-icon">📷</div>
+            <div class="zone-label">Upload a photo</div>
+            <div class="zone-hint">or drag &amp; drop here</div>
+          </div>
+
+          <div class="camera-zone">
+            <video id="camera-feed" autoplay playsinline muted></video>
+            <div class="camera-placeholder" id="camera-placeholder">
+              <div class="zone-icon">🎥</div>
+              <div class="zone-label">Live camera</div>
+              <div class="zone-hint">scan in real time</div>
+            </div>
+            <div class="camera-btns">
+              <button class="btn btn-outline" id="btn-toggle-camera">Start Camera</button>
+              <button class="btn btn-primary" id="btn-capture-scan" disabled>Scan Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview-bar" id="preview-bar" style="display:none">
+          <img id="upload-preview" src="#" alt="Preview" />
+          <div class="preview-actions">
+            <button class="btn btn-primary" id="btn-submit-upload">✓ Analyze this</button>
+            <button class="btn btn-ghost" id="btn-remove-upload">✕ Remove</button>
+          </div>
+        </div>
+
+        <div class="presets-section">
+          <div class="presets-label">Try a demo preset</div>
+          <div class="presets-row">
+            <button class="preset-pill safe" data-preset="panadol_extra">💊 Panadol</button>
+            <button class="preset-pill safe" data-preset="coartem_20_120">💊 Coartem</button>
+            <button class="preset-pill safe" data-preset="amoxicillin_500">💊 Amoxicillin</button>
+            <button class="preset-pill safe" data-preset="ibuprofen_400">💊 Ibuprofen</button>
+            <button class="preset-pill safe" data-preset="nivea_cream">🧴 NIVEA</button>
+            <button class="preset-pill safe" data-preset="dior_sauvage">🌸 Dior Sauvage</button>
+            <button class="preset-pill danger" data-preset="suspicious_pill">⚠️ Fake pill</button>
+            <button class="preset-pill danger" data-preset="fake_dior">⚠️ Fake Dior</button>
+            <button class="preset-pill danger" data-preset="fake_skin_bleach">☠️ Toxic bleach</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOADING -->
+      <section id="loading-section" style="display:none">
+        <div class="loading-box">
+          <div class="spinner"></div>
+          <div class="loading-steps">
+            <div class="step" id="step-1">📸 Reading label…</div>
+            <div class="step" id="step-2">🔍 Checking Rwanda FDA registry…</div>
+            <div class="step" id="step-3">🧠 Simplifying instructions…</div>
+            <div class="step" id="step-4">🔊 Generating Kinyarwanda audio…</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESULT -->
+      <section id="result-section" style="display:none">
+        <div class="status-banner" id="status-banner">
+          <div class="status-emoji" id="status-emoji"></div>
+          <div>
+            <div class="status-title" id="status-title"></div>
+            <div class="status-reason" id="status-reason"></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-name" id="res-brand-name"></div>
+          <div class="product-meta">
+            <span id="res-generic-name"></span>
+            <span class="sep">·</span>
+            <span id="res-strength"></span>
+          </div>
+          <div class="product-details">
+            <div class="detail-row"><span class="detail-label">Manufacturer</span><span class="detail-val" id="res-manufacturer"></span></div>
+            <div class="detail-row"><span class="detail-label">Reg. No.</span><span class="detail-val" id="res-reg-no"></span></div>
+            <div class="detail-row"><span class="detail-label">Expiry</span><span class="detail-val" id="res-expiry"></span></div>
+          </div>
+        </div>
+
+        <div class="instructions-card">
+          <div class="lang-tabs">
+            <button class="lang-tab active" data-lang="rw">🇷🇼 Kinyarwanda</button>
+            <button class="lang-tab" data-lang="en">🇬🇧 English</button>
+          </div>
+          <div class="lang-panel active" id="panel-rw">
+            <div class="instr-block dosage">
+              <div class="instr-icon">💊</div>
+              <div><div class="instr-title">Uburyo bwo gufata</div><div class="instr-text" id="res-dosage-rw"></div></div>
+            </div>
+            <div class="instr-block warning">
+              <div class="instr-icon">⚠️</div>
+              <div><div class="instr-title">Ibyitonderwa</div><div class="instr-text" id="res-warning-rw"></div></div>
+            </div>
+          </div>
+          <div class="lang-panel" id="panel-en">
+            <div class="instr-block dosage">
+              <div class="instr-icon">💊</div>
+              <div><div class="instr-title">How to take</div><div class="instr-text" id="res-dosage-en"></div></div>
+            </div>
+            <div class="instr-block warning">
+              <div class="instr-icon">⚠️</div>
+              <div><div class="instr-title">Warnings</div><div class="instr-text" id="res-warning-en"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="audio-card" id="audio-card" style="display:none">
+          <div class="audio-label">🔊 Umva amabwiriza mu Kinyarwanda</div>
+          <div class="audio-controls">
+            <button class="play-btn" id="audio-play-btn" aria-label="Play audio">
+              <svg class="play-icon"  viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21"/></svg>
+              <svg class="pause-icon" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+            </button>
+            <div class="eq-bars" id="eq-bars">
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="audio-time" id="audio-time">0:00</div>
+          </div>
+          <audio id="native-audio" style="display:none"></audio>
+        </div>
+
+        <button class="btn btn-outline btn-full" id="btn-reset">← Scan another product</button>
+      </section>
+
+      <!-- ACCESS -->
+      <section id="access-section" style="display:none">
+        <h2 class="page-title">Access for everyone</h2>
+        <p class="page-sub">AgukaMed works on any phone — no internet or smartphone required.</p>
+
+        <div class="access-cards">
+          <div class="access-card">
+            <div class="access-icon">📱</div>
+            <div class="access-title">SMS verification</div>
+            <div class="access-desc">Works on any basic phone. No internet needed.</div>
+            <div class="sms-demo">
+              <div class="sms-bubble outgoing">VERIFY PANADOL</div>
+              <div class="sms-bubble incoming" id="sms-reply">Type a message and hit Send →</div>
+            </div>
+            <div class="sms-input-row">
+              <input class="sms-input" id="sms-input" type="text" placeholder="e.g. VERIFY COARTEM" />
+              <button class="btn btn-primary" id="btn-sms-send">Send</button>
+            </div>
+            <div class="access-hint">Try: <code>VERIFY PANADOL</code> · <code>VERIFY FEVER-X</code> · <code>REPORT FAKE Bleach</code></div>
+          </div>
+
+          <div class="access-card">
+            <div class="access-icon">☎️</div>
+            <div class="access-title">USSD <span class="access-code">*123*MED#</span></div>
+            <div class="access-desc">Dial from any button phone. Works offline.</div>
+            <div class="ussd-phone">
+              <div class="ussd-screen" id="ussd-screen">Press Reset to start</div>
+              <div class="ussd-input-row">
+                <input class="ussd-text-input" id="ussd-text-input" type="text" placeholder="Type or use keys…" />
+              </div>
+              <div class="ussd-keypad">
+                <button class="ussd-key" data-key="1">1</button>
+                <button class="ussd-key" data-key="2">2</button>
+                <button class="ussd-key" data-key="3">3</button>
+                <button class="ussd-key" data-key="4">4</button>
+                <button class="ussd-key" data-key="5">5</button>
+                <button class="ussd-key" data-key="6">6</button>
+                <button class="ussd-key" data-key="7">7</button>
+                <button class="ussd-key" data-key="8">8</button>
+                <button class="ussd-key" data-key="9">9</button>
+                <button class="ussd-key" data-key="*">*</button>
+                <button class="ussd-key" data-key="0">0</button>
+                <button class="ussd-key" data-key="#">#</button>
+              </div>
+              <div class="ussd-actions">
+                <button class="ussd-key ussd-clear" data-key="clear">CLR</button>
+                <button class="ussd-key ussd-ok" data-key="send">OK</button>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-full" id="btn-ussd-reset">Reset Session</button>
+          </div>
+
+          <div class="access-card wa-card">
+            <div class="access-icon">💬</div>
+            <div class="access-title">WhatsApp Bot</div>
+            <div class="access-desc">Send a photo or text command on WhatsApp.</div>
+            <div class="wa-chat" id="wa-chat">
+              <div class="wa-bubble wa-incoming">
+                👋 Welcome to <b>AgukaMed</b>!<br/>
+                Send <code>VERIFY &lt;medicine&gt;</code> or 📷 a photo of the label.
+              </div>
+            </div>
+            <div class="wa-input-row">
+              <input type="file" id="wa-file" accept="image/*" hidden />
+              <input type="file" id="wa-camera" accept="image/*" capture="environment" hidden />
+              <button class="wa-attach-btn" id="btn-wa-attach" title="Attach photo" aria-label="Attach photo">📎</button>
+              <button class="wa-attach-btn" id="btn-wa-camera" title="Take photo" aria-label="Take photo">📷</button>
+              <input class="sms-input" id="wa-input" type="text" placeholder="e.g. VERIFY COARTEM" />
+              <button class="btn btn-primary" id="btn-wa-send">Send</button>
+            </div>
+            <div class="access-hint">Try: <code>VERIFY PANADOL</code> · <code>VERIFY FEVER-X</code> · 📷 photo upload</div>
+          </div>
+        </div>
+
+        <div class="report-card">
+          <div class="report-header">
+            <span class="report-emoji">🚨</span>
+            <div>
+              <div class="access-title">Report a fake product</div>
+              <div class="access-desc">Help protect your community. Reports go to Rwanda FDA.</div>
+            </div>
+          </div>
+          <div class="report-form">
+            <input class="form-input" id="report-product"  type="text" placeholder="Product name *" />
+            <input class="form-input" id="report-location" type="text" placeholder="Where did you buy it? (optional)" />
+            <input class="form-input" id="report-seller"   type="text" placeholder="Seller / shop name (optional)" />
+            <textarea class="form-input" id="report-desc" rows="2" placeholder="Describe the issue (optional)"></textarea>
+            <button class="btn btn-primary btn-full" id="btn-report-submit">Submit Report to Rwanda FDA</button>
+            <div class="report-confirm" id="report-confirm" style="display:none"></div>
+          </div>
+        </div>
+
+        <div class="channels-grid-app">
+          <div class="channel-app"><div class="ch-icon">📱</div><div class="ch-name">SMS</div><div class="ch-desc">Any phone</div></div>
+          <div class="channel-app"><div class="ch-icon">☎️</div><div class="ch-name">USSD</div><div class="ch-desc">No internet</div></div>
+          <div class="channel-app"><div class="ch-icon">💻</div><div class="ch-name">Web App</div><div class="ch-desc">Smartphone</div></div>
+          <div class="channel-app"><div class="ch-icon">💬</div><div class="ch-name">WhatsApp</div><div class="ch-desc">Basic data</div></div>
+          <div class="channel-app"><div class="ch-icon">🏥</div><div class="ch-name">Kiosk</div><div class="ch-desc">Clinic / CHW</div></div>
+          <div class="channel-app"><div class="ch-icon">🔊</div><div class="ch-name">Voice IVR</div><div class="ch-desc">Non-literate</div></div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    // Landing ↔ App navigation
+    (function () {
+      const landing = document.getElementById('landing-page');
+      const app     = document.getElementById('app-page');
+      const go = (page) => {
+        landing.style.display = page === 'landing' ? '' : 'none';
+        app.style.display     = page === 'app'     ? '' : 'none';
+        window.scrollTo(0, 0);
+      };
+      ['btn-open-app', 'btn-hero-scan', 'btn-impact-scan'].forEach(id => {
+        document.getElementById(id)?.addEventListener('click', () => go('app'));
+      });
+      document.getElementById('btn-back')?.addEventListener('click', () => go('landing'));
+      document.getElementById('btn-hero-demo')?.addEventListener('click', () => {
+        document.getElementById('how')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      document.querySelectorAll('.land-nav-links a[href^="#"]').forEach(a => {
+        a.addEventListener('click', (e) => {
+          const target = document.querySelector(a.getAttribute('href'));
+          if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+        });
+      });
+    })();
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "dior_sauvage",
+    "name": "Dior Sauvage Eau de Toilette",
+    "brand": "Christian Dior",
+    "manufacturer": "Parfums Christian Dior S.A.",
+    "regNo": "RFDA-PERF-2023-0007",
+    "type": "Perfume",
+    "verified": true,
+    "ingredients": "Alcohol Denat., Aqua, Bergamot, Ambroxan, Pepper, Lavender",
+    "warnings": "Flammable. Keep away from fire. Avoid contact with eyes. External use only.",
+    "warningRw": "Itwika vuba. Wubike kure y'umuriro. Irinda guturika mu maso. Gusa hanze gusa.",
+    "instructions": "Spray 2-3 times on pulse points (wrists, neck). Do not rub after applying.",
+    "instructionsRw": "Funga inshuro 2-3 ku mubiri (ku biringiti, ku ijosi). Ntukanyure nyuma yo gushira.",
+    "batchFormat": "^[A-Z]{2}[0-9]{6}$",
+    "expiryStatus": "Valid (Expires: Dec 2027)",
+    "category": "perfume"
+  },
+  {
+    "id": "chanel_no5",
+    "name": "Chanel No. 5 Eau de Parfum",
+    "brand": "Chanel",
+    "manufacturer": "Chanel S.A.",
+    "regNo": "RFDA-PERF-2022-0003",
+    "type": "Perfume",
+    "verified": true,
+    "ingredients": "Alcohol Denat., Aqua, Ylang-Ylang, Rose, Jasmine, Sandalwood, Vanilla",
+    "warnings": "Keep away from heat and direct sunlight. Flammable. For external use only.",
+    "warningRw": "Wubike kure y'ubushyuhe n'izuba. Itwika. Gusa hanze gusa.",
+    "instructions": "Apply to pulse points. Store in a cool, dry place away from sunlight.",
+    "instructionsRw": "Shira ku biringiti. Bika ahantu hacye, huma, kure y'izuba.",
+    "batchFormat": "^[A-Z]{1}[0-9]{7}$",
+    "expiryStatus": "Valid (Expires: Aug 2026)",
+    "category": "perfume"
+  },
+  {
+    "id": "fake_dior",
+    "name": "Dior Sauvage (Counterfeit)",
+    "brand": "Fake Dior",
+    "manufacturer": "Unknown Distributor",
+    "regNo": "NONE",
+    "type": "Perfume",
+    "verified": false,
+    "ingredients": "Unknown solvents, synthetic fixatives, possible allergens",
+    "warnings": "COUNTERFEIT: Packaging mimics authentic Dior. May contain toxic solvents causing skin burns or allergic reactions.",
+    "warningRw": "INYIGANANO: Agashya gasa na Dior nyayo. Irimo ibintu bishobora gusenya uruhu cyangwa gutera ubwivumbure.",
+    "instructions": "DO NOT USE. Dispose safely and report to Rwanda FDA.",
+    "instructionsRw": "NTUKORESHE. Buta neza maze umenyeshe Rwanda FDA.",
+    "expiryStatus": "UNKNOWN / COUNTERFEIT",
+    "category": "perfume"
+  }
+]

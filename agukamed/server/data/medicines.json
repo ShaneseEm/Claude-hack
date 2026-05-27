@@ -1,0 +1,62 @@
+[
+  {
+    "id": "panadol_extra",
+    "name": "Panadol Extra",
+    "genericName": "Paracetamol + Caffeine",
+    "manufacturer": "GlaxoSmithKline (GSK)",
+    "regNo": "FDA-RWA-2023-0182",
+    "strength": "500mg / 65mg",
+    "verified": true,
+    "indications": "Relief of mild to moderate pain (headache, toothache, backache, joint pain) and fever.",
+    "dosageSimpleEn": "Take 1 or 2 tablets every 4 to 6 hours as needed. Do not exceed 8 tablets in 24 hours.",
+    "dosageSimpleRw": "Fata ibinini 1 cyangwa 2 buri masaha 4 kugeza kuri 6 igihe cyose ubibabara. Ntukarenze ibinini 8 mu masaha 24.",
+    "warningEn": "Contains paracetamol. Do not take with other paracetamol-containing products. Avoid excessive alcohol usage.",
+    "warningRw": "Harimo paracetamol. Ntukayifatane n'indi miti irimo paracetamol. Irinde kunywa inzoga nyinshi mu gihe uyifata.",
+    "expiryStatus": "Valid (Expires: Dec 2027)"
+  },
+  {
+    "id": "amoxicillin_500",
+    "name": "Amoxicillin Capsule",
+    "genericName": "Amoxicillin Trihydrate",
+    "manufacturer": "Medac Pharm Ltd",
+    "regNo": "FDA-RWA-2022-0941",
+    "strength": "500mg",
+    "verified": true,
+    "indications": "Treatment of bacterial infections such as ear, nose, throat, skin, and urinary tract infections.",
+    "dosageSimpleEn": "Take 1 capsule 3 times a day (every 8 hours) with or without food for 5 to 7 days. Complete the full course.",
+    "dosageSimpleRw": "Fata agasanduku 1 inshuro 3 ku munsi (buri masaha 8) hamwe n'ibiryo cyangwa utabirye, mu gihe cy'iminsi 5 kugeza kuri 7. Genda ubirangize byose ubashe gukira neza.",
+    "warningEn": "Finish the entire prescription even if you feel better. Do not take if you have a known penicillin allergy.",
+    "warningRw": "Nuzamara kumva utangiye gukira, ntugahagarike gufata umuti kugeza uwo waguhaye ushize. Ntukawufate niba ufite ubwivumbure bwa penicillin.",
+    "expiryStatus": "Valid (Expires: Aug 2028)"
+  },
+  {
+    "id": "coartem_20_120",
+    "name": "Coartem",
+    "genericName": "Artemether + Lumefantrine",
+    "manufacturer": "Novartis Pharma",
+    "regNo": "FDA-RWA-2024-0012",
+    "strength": "20mg / 120mg",
+    "verified": true,
+    "indications": "Treatment of acute, uncomplicated malaria infections caused by Plasmodium falciparum.",
+    "dosageSimpleEn": "Take 4 tablets twice daily (morning and evening) with fatty food or milk for exactly 3 days (total 24 tablets).",
+    "dosageSimpleRw": "Fata ibinini 4 inshuro 2 ku munsi (mu gitondo na nimugoroba) uherekeje ibiryo bifite ibinure cyangwa amata, mu gihe cy'iminsi 3 neza.",
+    "warningEn": "Always complete the entire 3-day treatment. Take with food to ensure maximum absorption and effectiveness.",
+    "warningRw": "Buri gihe wuzure iminsi 3 yose yo kwivuza nubwo waba ukira. Fata umuti uherekejwe n'amafunguro kugira ngo ubashe gukora neza.",
+    "expiryStatus": "Valid (Expires: May 2027)"
+  },
+  {
+    "id": "ibuprofen_400",
+    "name": "Ibuprofen",
+    "genericName": "Ibuprofen BP",
+    "manufacturer": "Shalina Healthcare Ltd",
+    "regNo": "FDA-RWA-2023-0599",
+    "strength": "400mg",
+    "verified": true,
+    "indications": "Relief of rheumatoid arthritis, osteoarthritis, dental pain, and muscular pain.",
+    "dosageSimpleEn": "Take 1 tablet twice a day after meals. Do not take on an empty stomach.",
+    "dosageSimpleRw": "Fata ikinini 1 inshuro 2 ku munsi nyuma yo kurya. Ntukawufate ushonje (nta kintu kiri mu nda).",
+    "warningEn": "Always take after meals to prevent stomach irritation. Consult a doctor if you have stomach ulcers.",
+    "warningRw": "Buri gihe fata umuti umaze kurya kugira ngo wirinde kubabara mu nda. Baza muganga niba ufite ibisebe mu nda (ulcers).",
+    "expiryStatus": "Valid (Expires: Oct 2027)"
+  }
+]
