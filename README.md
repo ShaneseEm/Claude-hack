@@ -1,6 +1,7 @@
 # AgukaMed — AI Safe Product & Medicine Verification Assistant
 
-![AgukaMed Banner](./public/images/banner.png)
+<img width="1197" height="884" alt="image" src="https://github.com/user-attachments/assets/ccab5751-90e8-443d-8470-61ac5f5cef63" />
+
 
 > AI-powered verification system for medicines, cosmetics, perfumes, and health products with Kinyarwanda voice guidance and accessibility-first design.
 
