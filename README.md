@@ -11,11 +11,11 @@
 
 AgukaMed is an African-first AI platform designed to help people verify the authenticity and safety of:
 
-- 💊 Medicines
-- 🧴 Cosmetics
-- 🌸 Perfumes
-- 🧼 Skin-care products
-- 🧪 Beauty products
+-  Medicines
+-  Cosmetics
+-  Perfumes
+-  Skin-care products
+-  Beauty products
 
 using:
 
